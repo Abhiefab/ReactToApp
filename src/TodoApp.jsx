@@ -40,7 +40,7 @@ export default function TodoApp() {
         />
 
         <button onClick={addTask} style={styles.addBtn}>
-          Add
+          Add Button
         </button>
 
       </div>
