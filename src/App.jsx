@@ -4,8 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import React from 'react'
-import TodoApp from './ToDoApp'
-
+import TodoApp from './TodoApp'
 const App = () => {
   return (
     <div>
