@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone') {
             steps {
-                git 'https://github.com/Abhiefab/ReactToApp.git'
+                git branch: 'main', url: 'https://github.com/Abhiefab/ReactToApp.git'
             }
         }
 
